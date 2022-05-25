@@ -6,6 +6,10 @@
     },
     "allowJs": true,
     "esModuleInterop": true,
-    "strict": true
+    "strict": true,
+    "declaration": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "outFile": "./dist/index.d.ts"
   }
 }
