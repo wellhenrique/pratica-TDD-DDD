@@ -11,6 +11,7 @@ O sistema de notas é dividido em 4 bimestres
 - [RF001] deve ser possível um Diretor cadastrar alunos na ficha com (nome, endereço, telefone_contato, cpf)
 - [RN001] O diretor não pode cadastrar na ficha o mesmo aluno 2x;
 - [RN002] O diretor deve informar qual o curso que o aluno está matriculado
+- [RN002] O diretor deve informar qual o nome do aluno que está sendo matriculado
 - [RN003] O diretor não pode cadastrar um aluno na ficha com os dados inválidos.
 
 ### pesquisar ficha:
@@ -54,7 +55,7 @@ O sistema de notas é dividido em 4 bimestres
 
 **INTERFACE**
 
-Ficha Padrão →  {
+Ficha Padrão → {
 
 nome: string;
 
@@ -72,7 +73,7 @@ posição: aluno | professor | diretor
 
 **DOMAIN**
 
-Ficha →  {
+Ficha → {
 
 nome_aluno,
 
