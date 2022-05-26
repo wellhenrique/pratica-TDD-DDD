@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
-    "paths": {
-      "@/*": ["*"]
-    },
-    "allowJs": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
     "esModuleInterop": true,
-    "strict": true,
-    "declaration": true,
-    "noEmit": false,
-    "emitDeclarationOnly": true,
-    "outFile": "./dist/index.d.ts"
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "packages",
+    "paths": {
+      "@domain/*": ["/domain*"],
+      "@application/*": ["/application*"],
+      "@shared/*": ["/shared*"]
+    }
   }
 }

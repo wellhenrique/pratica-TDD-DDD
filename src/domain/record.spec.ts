@@ -1,4 +1,4 @@
-import { Record } from "@/domain/record";
+import { Record } from "../domain/record";
 
 describe("record", () => {
   it("it should be possible to call the record ", () => {
