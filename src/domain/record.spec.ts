@@ -18,7 +18,6 @@ describe("record", () => {
     expect(record).toBeDefined();
   });
 
-<<<<<<< HEAD
   it("it should be possible to call the execute method", () => {
     const record = new Record();
     record.execute = jest.fn();
@@ -80,24 +79,5 @@ describe("record", () => {
       ...fakeProps,
       status: "any_status",
     });
-=======
-  it("it should be possible to call execute method on the record ", () => {
-    const record = new Record();
-    record.execute = jest.fn();
-
-    record.execute(fakeRecord);
-
-    expect(record).toBeCalledTimes(1);
-  });
-
-  it("it should be possible to call the execute method passing the name parameters in the registry", () => {
-    const record = new Record();
-    record.execute = jest.fn();
-
-    record.execute({ ...fakeRecord, props: "any_props" });
-
-    expect(record).toBeCalledTimes(1);
-    expect(record).toBeCalledWith({ props: "any_props" });
->>>>>>> 79ee24799d9b42cbb4cc17727675493c96616f84
   });
 });
