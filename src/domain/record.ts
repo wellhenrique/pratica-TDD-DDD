@@ -1,6 +1,7 @@
 type RecordProps = {
   name: string;
   age: number;
+  course: string;
 };
 
 export class Record {
