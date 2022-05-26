@@ -1,4 +1,5 @@
 export class Record {
+  execute(props) {}
   // name: string;
   // age: number;
   // course: string;
