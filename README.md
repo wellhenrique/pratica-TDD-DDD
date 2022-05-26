@@ -9,22 +9,22 @@ O sistema de notas é dividido em 4 bimestres
 ### Cadastrar ficha:
 
 - [RF001] deve ser possível um Diretor cadastrar alunos na ficha com (nome, endereço, telefone_contato, cpf)
-- [RN001] O diretor não pode cadastrar na ficha o mesmo aluno 2x;
+- [RN001] O diretor deve informar qual o nome do aluno que está sendo matriculado
 - [RN002] O diretor deve informar qual o curso que o aluno está matriculado
-- [RN002] O diretor deve informar qual o nome do aluno que está sendo matriculado
-- [RN003] O diretor não pode cadastrar um aluno na ficha com os dados inválidos.
+- [RN003] O diretor não pode cadastrar na ficha o mesmo aluno 2x;
+- [RN004] O diretor não pode cadastrar um aluno na ficha com os dados inválidos.
 
 ### pesquisar ficha:
 
-- [RF001] Deve ser possível um professor pesquisar a ficha de um aluno (por cpf);
-- [RN001] O software não deve permitir pesquisar a ficha um aluno que não existe;
-- [RN002] O software não deve permitir editar a media de uma ficha de um aluno para um valor maior que 10 ou menor que 0.
+- [RF005] Deve ser possível um professor pesquisar a ficha de um aluno (por cpf);
+- [RN005] O software não deve permitir pesquisar a ficha um aluno que não existe;
+- [RN006] O software não deve permitir editar a media de uma ficha de um aluno para um valor maior que 10 ou menor que 0.
 
 ### remover ficha:
 
-- [RF001] Deve ser possível um professor remover a ficha de um aluno (por cpf);
-- [RN001] O software não deve permitir remover a ficha um aluno que não existe;
-- [RN002] O software não deve permitir remover a media de uma ficha de um aluno para um valor maior que 10 ou menor que 0.
+- [RF006] Deve ser possível um professor remover a ficha de um aluno (por cpf);
+- [RN007] O software não deve permitir remover a ficha um aluno que não existe;
+- [RN008] O software não deve permitir remover a media de uma ficha de um aluno para um valor maior que 10 ou menor que 0.
 
 ### listar ficha:
 
