@@ -1,9 +1,5 @@
-type RecordProps = {
-  name: string;
-};
-
 export class Record {
-  execute(props: RecordProps): void {}
+  execute(props: any): void {}
 
   // name: string;
   // age: number;
